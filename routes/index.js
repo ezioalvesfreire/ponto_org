@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Agape.Org' });
 });
 
+router.get('/sobre', function(req, res, next){
+  res.render('sobre', {title: 'Sobre'});
+});
+
 module.exports = router;
