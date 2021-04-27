@@ -14,4 +14,5 @@ router.get('/photo_posts', function (req, res, next) {
   res.render('photo_posts', { title: 'Agape.org', posts: posts });
 });
 
+
 module.exports = router;
